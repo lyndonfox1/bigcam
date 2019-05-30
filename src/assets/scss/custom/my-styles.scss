@@ -1,0 +1,112 @@
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 20px 50px 20px 50px;
+}
+
+.logo {
+  width: 200px;
+}
+
+.container {
+  max-width: 1250px;
+}
+
+.header {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+}
+
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+.heading-1 {
+  text-align: center;
+  padding: 30px;
+  margin-bottom: 20px;
+  width: 1000px;
+}
+
+.camera-image {
+  width: 300px;
+}
+
+.camera-main {
+  width: 500px;
+}
+
+a {
+  color: #2ca2ec;
+   text-decoration: none;
+     list-style-image: none;
+}
+
+a:hover {
+  color: #333;
+
+}
+
+.button {
+  background: #2ca2ec;
+  border-bottom: 3px #333 solid;
+  width: 100px;
+  height: 40px;
+  margin-top: 45px;
+}
+
+.button:hover {
+  background: #333;
+  color: rgb(255, 255, 255);
+}
+
+.vertical li{
+	border-bottom: 1px #ccc solid;
+}
+
+.vertical li:last-child{
+	border-bottom: none;
+}
+a {
+     text-decoration: none;
+     color: rgb(91, 52, 10);
+      display: inline; 
+     padding: 10px;
+      text-decoration: none;
+     list-style-image: none;
+}
+nav {
+    background-color: darkgoldenrod;
+  text-align: center;
+   text-decoration: none;
+     list-style-image: none;
+ }
+
+.custom-logo {
+    width:50px;
+}
+.woocommerce-MyAccount-navigation ul li {
+    text-decoration: none;
+     list-style-image: none;
+}
+#categories-3 {
+    
+     color: blue;
+}
+#categories-3 {
+    
+     color: blue;
+}
+#categories-3 a {
+     text-decoration: none;
+     list-style-image: none;
+     color: red;
+}
