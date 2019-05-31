@@ -25,6 +25,10 @@ get_header(); ?>
 			<?php /* Start the Loop */ ?>
 			<?php while ( have_posts() ) : the_post(); ?>
 				<?php get_template_part( 'template-parts/content', get_post_format() ); ?>
+				    <br>
+               <?php if(has_post_thumbnail()) : ?>
+                <?php the_post_thumbnail(); ?>
+              <?php endif; ?>
 			<?php endwhile; ?>
 
 			<?php else : ?>
